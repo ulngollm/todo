@@ -29,6 +29,10 @@
     .task{
         display: flex;
         gap: 20px;
+        padding: 10px 0;
+    }
+    .task input[type="checkbox"]{
+        margin: 0;
     }
     .task__label{
         display: block;
