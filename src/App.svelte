@@ -1,11 +1,20 @@
 <script>
-	import Checkbox from './Checkbox.svelte';
+	import List from './List.svelte';
+	const listData = [
+		{
+			text:"Новый дело на завтвчерара",
+			completed: true,
+		},
+		{
+			text:"Новый дело на сегодня",
+			completed: false,
+		}
+	];
 </script>
 
 <main>
 	<h1>First list</h1>
-	<Checkbox text="asdasda"/>
-	<Checkbox text="Новый чек-лист"/>
+	<List listItems={listData}/>
 	<!-- как добавить новый элемент на страницу -->
 </main>
 
