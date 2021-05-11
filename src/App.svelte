@@ -1,5 +1,5 @@
 <script>
-	import List from './List.svelte';
+	import List from './components/List.svelte';
 	const listData = [
 		{
 			text:"Новый дело на завтвчерара",
@@ -10,12 +10,12 @@
 			completed: false,
 		}
 	];
+	
 </script>
 
 <main>
 	<h1>First list</h1>
 	<List listItems={listData}/>
-	<!-- как добавить новый элемент на страницу -->
 </main>
 
 <style>

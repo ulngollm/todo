@@ -1,6 +1,5 @@
 <script>
     export let completed = false;
-    // export let name;
     export let text = "...";
     export let edited = false;
     function editText(){
@@ -10,6 +9,10 @@
         text = event.currentTarget.value;
         edited = false;
         console.log('edit end');
+        console.log(event.type)
+    }
+    function inputHandler(e){
+        console.log(e);
     }
 </script>
 
