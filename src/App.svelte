@@ -1,15 +1,17 @@
 <script>
-	export let name;
+	import Checkbox from './Checkbox.svelte';
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>First list</h1>
+	<Checkbox text="asdasda"/>
+	<Checkbox text="Новый чек-лист"/>
+	<!-- как добавить новый элемент на страницу -->
 </main>
 
 <style>
 	main {
-		text-align: center;
+		/* text-align: center; */
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
